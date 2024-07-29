@@ -1,0 +1,66 @@
+body {
+    overflow-x: hidden;
+
+}
+
+.footer-container {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #13131300;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+.leftfoot {
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.rightfoot {
+    margin-right: 40px;
+}
+
+.githubimg {
+    height: 30px;
+    filter: invert();
+    transition: transform 0.4s ease;
+}
+
+.githubimg:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            padding: 10px;
+            background-color: #13131300;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            font-size: 5px;
+            margin-bottom: 5px;
+        }
+.leftfoot {
+    margin-left: 10px;
+
+  font-size: 12px;
+}
+
+.rightfoot {
+    margin-right: 1px;
+}
+ .rightfoot img{
+    height: 22px;
+ }
+}

@@ -1,0 +1,183 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .home-name {
+    margin-top: -10px;
+  }
+  .home-container p {
+    font-size: 50px;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: revealText 3s forwards;
+  }
+  @keyframes revealText {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .home-name {
+    animation-delay: 0.5s;
+  }
+  
+  .home-container .desig-home span {
+    /* margin-top: 30px; */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: revealText 3s forwards;
+    animation-delay: 1s;
+  }
+  .home-container .desig-home span{
+    margin-top: -45px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .getStartedbtn {
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    background-color: white;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.585); 
+  }
+  .home-container a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .getStartedbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: transform 0.5s ease, translateY(20px);
+    animation: revealText 3s forwards;
+    animation-delay: 1.75s;
+  }
+  
+  .getStartedbtn:hover {
+    transform: scale(1.12);
+  }
+  
+  @media only screen and (max-width: 768px) {
+      .home-container p {
+          font-size: 40px;
+      }
+  
+      .desig-home{
+          font-size: 18px;
+      }
+  
+      .getStartedbtn {
+          margin-top: 30px;
+      }
+  
+  }
+/* main */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    
+    height: 80vh;
+    color: white;
+}
+
+.main-container p {
+    text-align: left;
+    
+    margin-top: -15px;
+    font-size: 50px;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: revealText 3s forwards;
+}
+.main-container span {
+background: linear-gradient(to right, #119E96, #9E00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .main-container a {
+      width: 120px;
+      font-size: 16px;
+      margin-top: -70px;
+      font-weight: 400;
+      text-decoration: none;
+      color: #000000;
+  }
+.viewProjectsBtn {
+    width: 140px;
+    margin-top: 80px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: transform 0.5s ease;
+    animation: revealText 3s forwards;
+    animation-delay: 1.5s;
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.619); 
+}
+
+.viewProjectsBtn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(246, 246, 246, 0.468), rgba(0, 204, 255, 0.6), rgba(0, 255, 102, 0.6), rgba(255, 215, 0, 0.6));
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1; 
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.viewProjectsBtn:hover::before {
+    opacity: 1; 
+}
+
+.viewProjectsBtn:hover {
+    transform: scale(1.12);
+}
+@media screen and (max-width: 768px) {
+    .main-container {
+        margin-left: 10%;
+    }
+
+    .main-container p {
+        margin-top: -5px;
+        font-size: 25px;
+    }
+
+    .viewProjectsBtn {
+        margin-top: 80px;
+        width: 120px;
+    }
+
+    .main-container a {
+        width: 80px;
+        font-size: 12px;
+    }
+}

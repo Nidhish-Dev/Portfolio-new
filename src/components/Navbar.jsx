@@ -1,24 +1,52 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import "./Navbar.css"
+import "./Navbar.css";
 
 const Navbar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
 
   return (
-    <div className="navbar ">
-    <Link className='logo' to="/">
-          <img src="/nr.png" alt="Logo" />
-        </Link>
-    <nav className=''>
-      <ul className='flex gap-4 items-center'>
-        {currentPath !== '/' && <li><Link to="/">Home</Link></li>}
-        {currentPath !== '/about' && <li><Link to="/about">About</Link></li>}
-        {currentPath !== '/projects' && <li><Link to="/projects">Projects</Link></li>}
-        {currentPath !== '/contact' && <li><Link to="/contact">Contact</Link></li>}
-      </ul>
-    </nav>
+    <div className="navbar">
+      <Link className='logo' to="/">
+        <img src="/nr.png" alt="Logo" />
+      </Link>
+      <nav>
+        <ul className='flex gap-4 items-center'>
+          <li>
+            <Link
+              to="/home"
+              className={currentPath === '/home' ? 'active' : 'inactive'}
+            >
+              HOME
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/about"
+              className={currentPath === '/about' ? 'active' : 'inactive'}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/projects"
+              className={currentPath === '/projects' ? 'active' : 'inactive'}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className={currentPath === '/contact' ? 'active' : 'inactive'}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 };

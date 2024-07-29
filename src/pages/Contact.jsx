@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Navbar from '../components/Navbar';
 const Contact = () => {
   return (
-    <div className='mx-3'>
+    <div >
+      <Navbar />
       Contact Page
     </div>
   )
