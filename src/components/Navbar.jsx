@@ -1,15 +1,16 @@
 import React, { useState } from "react";
-import { useLocation, Link } from "react-router-dom"; // Import Link for internal navigation
+import { useLocation, Link } from "react-router-dom"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation(); // Use to get the current path
+  const location = useLocation(); 
 
   const toggleMenu = () => {
+    console.log("Toggle Menu Clicked");
     setIsOpen(!isOpen);
   };
 
-  // Function to check if the link is active
+
   const isActive = (path) => location.pathname === path;
 
   return (
@@ -20,7 +21,7 @@ const Navbar = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src="/nr.png" className="h-5" alt="Flowbite Logo" />{" "}
-          {/* Adjusted image size */}
+         
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
