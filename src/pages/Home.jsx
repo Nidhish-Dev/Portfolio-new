@@ -7,7 +7,9 @@ import './Pages.css'
 const Home = () => {
   return (
    <>
+   
    <div className="home-container">
+    
    <p>Hello, I&apos;m</p>
       <p className='home-name'>Nidhish Rathore</p>
       <div className='desig-home'>

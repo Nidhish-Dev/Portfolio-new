@@ -89,6 +89,7 @@
   }
 /* main */
   .main-container {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,7 +187,7 @@ background: linear-gradient(to right, #119E96, #9E00FF);
 
 .about-container {
   color: white;
-  margin-top: 40px;
+  margin-top: 100px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -432,4 +433,7 @@ background: linear-gradient(to right, #119E96, #9E00FF);
     font-size: 10px;
     margin-left: 5px;
   }
+}
+.contact-container , .project-container{
+  margin-top: 100px;
 }

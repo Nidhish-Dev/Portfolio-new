@@ -2,10 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 const Projects = () => {
   return (
-    <div >
+    < >
       <Navbar />
+      <div className="project-container">
       Projects Page
-    </div>
+      </div>
+    </>
   )
 }
 

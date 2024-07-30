@@ -1,4 +1,4 @@
-.logo img {
+/* .logo img {
   height: 20px;
   transition: transform 0.3s ease;
 }
@@ -53,7 +53,7 @@
   text-decoration: underline; 
 }
 
-/* Media Query for Mobile Devices */
+Media Query for Mobile Devices
 @media screen and (max-width: 768px) {
   .navbar {
       margin-left: 5px;
@@ -97,4 +97,8 @@
   .nav-links a:hover {
       text-decoration: none; 
   }
+} */
+
+nav img{
+  height: 10px;
 }
