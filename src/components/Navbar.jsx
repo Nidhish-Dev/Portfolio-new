@@ -26,7 +26,7 @@ const Navbar = () => {
               to="/about"
               className={currentPath === '/about' ? 'active' : 'inactive'}
             >
-              About
+              ABOUT
             </Link>
           </li>
           <li>
@@ -34,7 +34,7 @@ const Navbar = () => {
               to="/projects"
               className={currentPath === '/projects' ? 'active' : 'inactive'}
             >
-              Projects
+              PROJECTS
             </Link>
           </li>
           <li>
@@ -42,7 +42,7 @@ const Navbar = () => {
               to="/contact"
               className={currentPath === '/contact' ? 'active' : 'inactive'}
             >
-              Contact
+              CONTACT
             </Link>
           </li>
         </ul>
