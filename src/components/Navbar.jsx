@@ -13,7 +13,7 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="bg-transparent dark:bg-transparent fixed w-full z-20 top-0 start-0 dark:border-gray-600">
+    <nav className="bg-transparent dark:bg-transparent  w-full z-20 top-0 start-0 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to="/"

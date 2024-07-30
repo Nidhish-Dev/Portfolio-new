@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <>
     <div className="footer-container">
-        <div className="leftfoot">Copyright © 2024 | Developed by Nidhish Rathore. All right reserved.</div>
+        <div className="leftfoot">Copyright © 2024 | Developed by Nidhish Rathore.
+           </div>
+        
 
         <div className="rightfoot">
             <a target='/' href="https://github.com/Nidhish-Dev">

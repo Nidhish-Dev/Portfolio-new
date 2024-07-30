@@ -54,13 +54,14 @@ body {
 .leftfoot {
     margin-left: 10px;
 
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .rightfoot {
     margin-right: 1px;
 }
  .rightfoot img{
-    height: 22px;
+    height: 32px;
+    margin-left: 10px;
  }
 }
