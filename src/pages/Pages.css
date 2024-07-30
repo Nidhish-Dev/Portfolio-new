@@ -384,7 +384,7 @@ background: linear-gradient(to right, #119E96, #9E00FF);
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
   }
-
+  
   .about-text,
   .skills {
     width: 100%;
@@ -396,6 +396,7 @@ background: linear-gradient(to right, #119E96, #9E00FF);
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
+  
 
   .about-container {
     margin-left: 20px;
@@ -429,7 +430,7 @@ background: linear-gradient(to right, #119E96, #9E00FF);
   .contact-heading {
     font-size: 20px;
   }
-
+  
   .about-text {
     font-size: 14px;
   }
@@ -457,7 +458,7 @@ background: linear-gradient(to right, #119E96, #9E00FF);
   .contact-heading {
     font-size: 18px;
   }
-
+ 
   .about-text {
     font-size: 12px;
     width: 100%;
@@ -470,5 +471,34 @@ background: linear-gradient(to right, #119E96, #9E00FF);
   .copy-button {
     font-size: 10px;
     margin-left: 5px;
+  }
+}
+.toast {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.toast img{
+  filter: invert();
+}
+.toast a{
+  text-decoration: underline;
+  color: #ffffff;
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .toast {
+    margin-left: 20px;
+  }
+}
+
+/* projects */
+
+.project-container{
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .project-container{
+    margin-left: 20px;
   }
 }
