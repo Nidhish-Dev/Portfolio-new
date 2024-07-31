@@ -343,7 +343,26 @@ background: linear-gradient(to right, #119E96, #9E00FF);
 .copied {
   color: #32CD32;
 }
+.repoHeading{
+margin-top: 30px;
+  margin-left: 50px;
+  display: flex;
+  font-size: 28px;
+  align-items: center;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealText 3s forwards;
+  animation-delay: 3s;
+}
 
+.repo-container{
+  margin-left: 50px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealText 3s forwards;
+  animation-delay: 3.5s;
+}
 @keyframes fadeInOut {
   0% {
     opacity: 0;
@@ -398,17 +417,20 @@ background: linear-gradient(to right, #119E96, #9E00FF);
   }
   
 
-  .about-container {
+  .about-container,.repo-container {
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .about-heading,
   .skill-heading,
-  .contact-heading {
+  .contact-heading,
+  .repoHeading {
     font-size: 24px;
   }
-
+.repoHeading{
+  margin-left: 20px;
+}
   .about-text {
     font-size: 16px;
     width: 100%;
@@ -424,10 +446,13 @@ background: linear-gradient(to right, #119E96, #9E00FF);
     /* grid-template-columns: 1fr; */
     gap: 20px;
   }
-
+  .repoHeading{
+    margin-left: 20px;
+  }
   .about-heading,
   .skill-heading,
-  .contact-heading {
+  .contact-heading,
+  .repoHeading{
     font-size: 20px;
   }
   
@@ -448,13 +473,16 @@ background: linear-gradient(to right, #119E96, #9E00FF);
 }
 
 @media (max-width: 320px) {
-  .about-container {
+  .about-container,.repo-container {
     margin-left: 10px;
     margin-right: 10px;
   }
+  .repoHeading{
+    margin-left: 20px;
+  }
 
   .about-heading,
-  .skill-heading,
+  .skill-heading,.repoHeading,
   .contact-heading {
     font-size: 18px;
   }
@@ -507,3 +535,30 @@ background: linear-gradient(to right, #119E96, #9E00FF);
   height: 250px;
 } */
  
+.main-hr{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 5px;
+  background-color: #ffffff;
+  border: none;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealText 3s forwards;
+  animation-delay: 3s;
+}
+
+
+.repo-container a{
+text-decoration: underline;
+font-style: italic;
+color: #ff70a6;
+}
+
+.journey-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealText 3s forwards;
+  animation-delay: 3.5s;
+}
