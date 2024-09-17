@@ -107,6 +107,19 @@ const About = () => {
           <div className="skill">FIGMA</div>
           <div className="skill">PHOTOSHOP</div>
         </div>
+        {/* social */}
+        <div className="contact-heading">
+          <div className="vertical-line"></div>
+          <p>SOCIALS</p>
+        </div>
+
+        <div className="contactsection">
+        <div className="socials flex gap-5">
+          <a target='/' href="https://www.linkedin.com/in/nidhish-rathore-b2b9bb325/"><img src="/Social Icons.png" alt="" /></a>
+          <a target='/' href="https://www.instagram.com/_the_nidhish/"><img src="/insta.png" alt="" /></a>
+        </div>
+        </div>
+        {/* contact */}
         <div className="contact-heading">
           <div className="vertical-line"></div>
           <p>CONTACT</p>

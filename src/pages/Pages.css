@@ -396,6 +396,13 @@ margin-top: 30px;
     animation: revealText 3s forwards;
     animation-delay: 5.5s;
 }
+.socials img{
+  height: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.socials img:hover{
+  transform: scale(1.2);
+}
 
 /* Media Queries */
 @media (max-width: 1200px) {
