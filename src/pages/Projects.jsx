@@ -46,6 +46,87 @@ const Projects = () => {
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
   >
     <img
+      src="/typeform.png"
+      alt="card-image"
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <div className="p-4 sm:p-6">
+    <h5 className="block mb-2 font-sans text-lg sm:text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+      Typeform
+    </h5>
+    <p className="block font-sans text-sm sm:text-base antialiased font-light leading-relaxed text-inherit">
+    The Typeform clone is developed with Next.js, Node.js, MongoDB, Tailwind CSS. It offers a user-friendly interface for customizable form creation, featuring a modern responsive design and robust data management using MongoDB.</p>
+  </div>
+  <div className="p-4 sm:p-6 pt-0">
+    <a target='/' href="https://typeform-nr.vercel.app/"><button
+      className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs sm:text-sm py-2 sm:py-3 px-4 sm:px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+      type="button"
+    >
+      Visit &gt;
+    </button></a>
+  </div>
+</div>
+
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full sm:w-96">
+  <div
+    className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+  >
+    <img
+      src="/bento.png"
+      alt="card-image"
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <div className="p-4 sm:p-6">
+    <h5 className="block mb-2 font-sans text-lg sm:text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+      Bento
+    </h5>
+    <p className="block font-sans text-sm sm:text-base antialiased font-light leading-relaxed text-inherit">
+    Bento is designed and developed using Next.js, Node.js, MongoDB, and Tailwind CSS. It provides an intuitive interface for organizing and sharing digital content, enhanced by a sleek, responsive design and effective data management.</p>
+  </div>
+  <div className="p-4 sm:p-6 pt-0">
+    <a target='/' href="https://bento-clone-nr.vercel.app/"><button
+      className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs sm:text-sm py-2 sm:py-3 px-4 sm:px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+      type="button"
+    >
+      Visit &gt;
+    </button></a>
+  </div>
+</div>
+
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full sm:w-96">
+  <div
+    className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+  >
+    <img
+      src="/cuvette.png"
+      alt="card-image"
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <div className="p-4 sm:p-6">
+    <h5 className="block mb-2 font-sans text-lg sm:text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+      Cuvette
+    </h5>
+    <p className="block font-sans text-sm sm:text-base antialiased font-light leading-relaxed text-inherit">
+    Cuvette, created with React, Node.js, MongoDB, and Tailwind CSS, features an instinctive interface for job creation, viewing, and applications. Its sleek, responsive design is complemented by efficient data management.</p>
+  </div>
+  <div className="p-4 sm:p-6 pt-0">
+    <a target='/' href="https://cuvette-job.vercel.app/"><button
+      className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs sm:text-sm py-2 sm:py-3 px-4 sm:px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+      type="button"
+    >
+      Visit &gt;
+    </button></a>
+  </div>
+</div>
+
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full sm:w-96">
+  <div
+    className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+  >
+    <img
       src="/musicSchool.jpg"
       alt="card-image"
       className="w-full h-full object-cover"

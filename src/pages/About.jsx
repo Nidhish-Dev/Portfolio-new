@@ -128,13 +128,13 @@ const About = () => {
           <div>
             <div className='contact-items'>
               <p>
-                codenidhish07@gmail.com
+              nidhish_dev@outlook.com
                 <span
                   className="copy-button"
-                  onClick={() => handleCopy("codenidhish07@gmail.com")}
+                  onClick={() => handleCopy("nidhish_dev@outlook.com")}
                 >
                   <FaCopy
-                    className={copied === "codenidhish07@gmail.com" ? "copied" : ""}
+                    className={copied === "nidhish_dev@outlook.com" ? "copied" : ""}
                   />
                 </span>
               </p>
